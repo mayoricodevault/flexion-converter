@@ -1,0 +1,32 @@
+{
+  "name": "flexion-converter",
+  "version": "1.0.0",
+  "description": "Units Converter",
+  "main": "lib",
+  "scripts": {
+    "test": "jake test --trace",
+    "linter": "eslint",
+    "formatter": "prettier --write lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmayorivera/flexion-converter.git"
+  },
+  "author": "Miguel Mayori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmayorivera/flexion-converter/issues"
+  },
+  "homepage": "https://github.com/mmayorivera/flexion-converter#readme",
+  "dependencies": {
+    "lodash.foreach": "^4.5.0",
+    "lodash.keys": "^4.2.0"
+  },
+  "devDependencies": {
+    "assert-diff": "^3.0.2",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "jake": "^10.8.2",
+    "prettier": "^2.2.1"
+  }
+}
